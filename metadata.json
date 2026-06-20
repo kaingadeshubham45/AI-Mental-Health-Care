@@ -1,0 +1,6 @@
+{
+  "name": "Mental Call AI",
+  "description": "A premium responsive landing page for Mental Call AI, a voice-based mental health triage startup that detects emotional distress through ordinary phone calls to save lives in underserved areas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

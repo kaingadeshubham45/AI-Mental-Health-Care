@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Base style resets and customizations if needed */
+html {
+  scroll-behavior: smooth;
+  background: radial-gradient(circle at top right, #32145A, #140A2E);
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+body {
+  background: radial-gradient(circle at top right, #32145A, #140A2E);
+  background-attachment: fixed;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0620;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f113f;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #32145a;
+}
+
